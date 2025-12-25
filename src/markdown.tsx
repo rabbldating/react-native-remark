@@ -72,7 +72,6 @@ export const Markdown = ({
   );
 
   return (
-    <View onLayout={onLayout} style={{ flex: 1 }}>
       <MarkdownContextProvider
         tree={tree}
         renderers={renderers}
@@ -84,6 +83,5 @@ export const Markdown = ({
       >
         <RootRenderer node={tree} />
       </MarkdownContextProvider>
-    </View>
   );
 };

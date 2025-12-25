@@ -1,6 +1,6 @@
 {
-  "name": "react-native-remark",
-  "version": "0.0.0",
+  "name": "react-native-remark-rabbl",
+  "version": "0.0.1",
   "description": "Remark for React Native",
   "main": "dist/index.mjs",
   "types": "dist/index.d.mts",
